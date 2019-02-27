@@ -1,0 +1,145 @@
+/*Small laptops and big tables 1024-1200px*/
+@media only screen and (max-width: 1200px){
+    html{
+        font-size:19px;
+    }
+
+    .row{
+        padding: 0 2%;
+        width:100%;
+    }
+
+    .expanded-row{
+        padding: 0 2%;
+        width:100%;
+    }
+
+    h1{font-size:240%;}
+    
+    h2{font-size:185%;}
+
+    .features-section h3{
+        font-weight:400;
+        margin-bottom:30px;
+    }
+    
+}
+
+/* Big phones, medium, big tablets 769-1023px*/
+@media only screen and (max-width: 1023px){
+    html, body{
+        font-size:18px;
+    }
+
+    .row{
+        padding: 0 2%;
+        width:100%;
+    }
+
+    .expanded-row{
+        padding: 0 2%;
+        width:100%;
+    }
+
+    .main-nav{display:none}
+
+    .pt-section{padding-top:65px;}
+
+    .pb-section{padding-bottom:65px;}
+
+    h1{font-size:230%;}
+    
+    h2{font-size:185%;}
+
+    .features-section .expanded-row .col {padding: 0 ;}
+
+    .features-section h3{
+        font-weight:400;
+        margin-bottom:15px;
+    }
+
+    .features-section .col{padding-bottom:5%;}
+    
+    .steps-section .col {padding: 0;}    
+
+
+    .step-num {
+        width: 41px;
+        height: 41px;
+        padding: 5px;
+        float: left;
+        font-size: 120%;
+    }
+
+    .step{margin:10px 0 30px 0;}
+
+    .city-des i {margin-right: 5px;}
+
+    .city-box{padding:0}
+    .step-app{height:45px;}
+
+    .plans-section .col {padding: 1%;}
+
+    
+}
+
+/* Big phones and small tables 481-768px*/
+@media only screen and (max-width: 768px){
+    body, html{
+        font-size:17px;
+    }
+
+    .row{
+        padding: 0 4%;
+        width:100%;
+    }
+
+    .expanded-row{
+        padding: 0 4%;
+        width:100%;
+    }
+
+    .col{
+        width:100%;
+        margin:0;
+    }
+
+    .flex-box{flex-direction: column;}
+
+    .flex-box .col{margin-bottom:5%}
+    .pt-section{padding-top:50px;}
+
+    .pb-section{padding-bottom:50px;}
+
+    h1{font-size:185%;}
+    
+    h2{font-size:140%;}
+
+    h3{font-size:90%;}
+
+    .main-nav{display:none}
+
+    .header-textbox {width:100%; padding-right:1%}
+
+    .image-list .flex-box{flex-direction: row;}
+
+    .underline {width: 30%;}
+
+    .features-section .expanded-row .col {padding: 0 auto;}
+
+    .step-img {margin:0 auto}
+
+    .city-box{margin-bottom: 5%}
+
+    .city-img:hover{transform:scale(1.05)}
+
+    .social-footer{margin-top:3%}
+
+    .social-footer li{float:left}
+}
+/* Small phones <480px*/
+@media only screen and (max-width: 768px){
+    body, html{
+        font-size:16px;
+    }
+}
